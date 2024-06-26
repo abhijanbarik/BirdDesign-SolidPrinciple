@@ -18,7 +18,7 @@ public class Main {
         for (Bird bird : birds) {
             bird.display();
             bird.walk();
-            if (bird instanceof Flyable) {
+            if (bird instanceof Flyable) { 
                 ((Flyable) bird).canFly();
             }
             if (bird instanceof Eatable) {
